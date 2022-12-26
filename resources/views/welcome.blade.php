@@ -23,7 +23,7 @@
                     @else
                        <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"><a href="{{ route('login') }}" class="text-sm text-white-700">Log in</a></button>
                         @if (Route::has('register'))
-                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-4 rounded"><a href="{{ route('register') }}" class="ml-4 text-sm text-white-700">Register</a></button>
+                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-4 rounded"><a href="{{ route('register') }}" class="ml-auto text-sm text-white-700">Register</a></button>
                         @endif
                     @endauth
                 </div>
